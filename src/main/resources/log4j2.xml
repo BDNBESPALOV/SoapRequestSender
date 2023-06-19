@@ -8,7 +8,7 @@
                 name="FileLogger"
                 fileName="SoapRequestSender.log"
                 filePattern="logs/SoapRequestSender-%d{yyyy-MM-dd}.log"
-                append="false">
+                append="true">
             <PatternLayout
                     pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <SizeBasedTriggeringPolicy size="100MB"/>
