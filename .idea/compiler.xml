@@ -9,8 +9,5 @@
         <module name="SoapRequestSender" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SoapRequestSender" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
